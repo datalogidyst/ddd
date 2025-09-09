@@ -1,4 +1,4 @@
-import MarkdownIt from "https://esm.sh/markdown-it";
+import MarkdownIt from "npm:markdown-it";
 
 Deno.serve({port: 8000}, async (req) => {
 
@@ -17,7 +17,7 @@ Deno.serve({port: 8000}, async (req) => {
     }
 
     //hvis ingen specifik sti er angivet, returner hovedoversigten
-    return await readMarkdownFile("./a/forside.md");
+    return await readMarkdownFile("forside.md");
 
 });
 
