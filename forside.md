@@ -1,0 +1,1 @@
+# Velkommen til dansk datalogidyst træning - Lyngby HCØ
